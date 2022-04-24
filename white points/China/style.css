@@ -1,0 +1,90 @@
+/* This is the project stylesheet */
+
+:root {
+  /* Colors */
+  --black-pr: rgba(0, 0, 0, 1);
+  --classic-white-pr: rgba(255, 255, 255, 1);
+  --transparent-black: rgba(0, 0, 0, 0.25);
+  --white-pr: rgba(255, 253, 249, 1);
+
+  /* Typographies */
+  /* h1 */
+  --h1-family: "Verdana";
+  --h1-size: 18px;
+  --h1-weight: 700;
+  --h1-line-height: normal;
+
+  /* main */
+  --main-family: "Verdana";
+  --main-size: 18px;
+  --main-weight: 400;
+  --main-line-height: normal;
+
+  /* main2 */
+  --main2-family: "Verdana";
+  --main2-size: 14px;
+  --main2-weight: 400;
+  --main2-line-height: normal;
+}
+.narodnyj-bank-kitaja-two {
+  background-color: var(--white-pr);
+  padding: 26px 80px 38px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.flex-wrapper-one {
+  margin-bottom: 17px;
+  display: flex;
+  align-items: flex-start;
+}
+.line-34 {
+  width: 2em;
+  height: 2em;
+  margin-top: 13px;
+  margin-right: 19px;
+}
+.num-220px-roc-central-bank-seal-1 {
+  width: 55px;
+  height: 55px;
+  margin-right: 18px;
+}
+.narodnyj-bank-kitaja {
+  color: var(--black-pr);
+  text-align: justify;
+  margin-top: 17px;
+  font-family: var(--h1-family);
+  font-size: var(--h1-size);
+  font-weight: var(--h1-weight);
+  line-height: var(--h1-line-height);
+}
+.kitajskij-central-nyj-bank-nazyvaetsja-na {
+  height: 413px;
+  width: 379px;
+  color: var(--black-pr);
+  display: flex;
+  text-align: justify;
+  margin-bottom: 12px;
+  margin-left: 49px;
+  font-family: var(--main2-family);
+  font-size: var(--main2-size);
+  font-weight: var(--main2-weight);
+  line-height: var(--main2-line-height);
+}
+.line-52 {
+  width: 190px;
+  margin-bottom: 13px;
+  margin-left: 48px;
+}
+.num-1-http-www-pbc-gov-cn-en-3688006-ind {
+  height: 15px;
+  width: 380px;
+  color: var(--black-pr);
+  display: flex;
+  text-align: justify;
+  margin-left: 48px;
+  font-family: var(--main2-family);
+  font-size: var(--main2-size);
+  font-weight: var(--main2-weight);
+  line-height: var(--main2-line-height);
+}
